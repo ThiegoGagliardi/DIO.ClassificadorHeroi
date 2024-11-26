@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./src/styles/style.css">
+
+    <title>Classificador de Herói</title>
+</head>
+<body>
+    <main>
+        <div id="content">
+            <div class="dadosHeroi">
+                <label for="">Digite o nome do Herói:</label>
+                <input id="nome__heroi">
+            </div>
+
+            <div class="dadosHeroi">
+                <label for="">Digite a XP do Herói:</label>
+                <input id="xp__heroi">
+            </div>
+
+            <button id="classificar__heroi">Classificar Herói</button>
+        </div>
+
+       <div id="container__nivel__heroi">
+          <span id="nivel__heroi"></span>
+       </div>
+
+    </main>
+    
+    <script defer type="module" src="src/scripts/NiveisXp.mjs"></script>
+    <script defer type="module" src="src/scripts/heroi.mjs"></script>    
+    <script defer type="module" src="src/scripts/classificadorHeroi.mjs"></script>
+    <script defer type="module" src="src/scripts/main.js"></script>
+</body>
+</html>
